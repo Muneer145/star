@@ -296,7 +296,7 @@ menu, ul {
 }
 
 nav ul, nav ol {
-  list-style: none;
+  list-style: circle;
   list-style-image: none;
 }
 
@@ -619,8 +619,10 @@ ul {
 }
 
 ul {
-  list-style: none;
+  list-style: circle;
   padding-left: 0;
+  font-size: 18px;
+  text-align: justify
 }
 
 a#scrollUp {
@@ -730,11 +732,11 @@ a#scrollUp:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-color: #e8e8e8;
+  background-color: #b8caac;
 }
 
 .bg-image--2 {
-  background-image: url("https://res.cloudinary.com/muneer/image/upload/v1584197439/test1.jpg");
+  background-image: url("https://res.cloudinary.com/muneer/image/upload/v1584282975/02MOSD3953_4_5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -896,7 +898,7 @@ a#scrollUp:hover {
 }
 
 .bg-image--25 {
-  background-image: url(images/bg/25.jpg);
+ background-color:#ffffff ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -910,7 +912,7 @@ a#scrollUp:hover {
 }
 
 .bg-image--27 {
-  background-color: #e8e8e8;
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -946,7 +948,7 @@ a#scrollUp:hover {
 }
 
 .bg-pngimage--2 {
-  background-color: #e8e8e8;
+  background-color: #b8caac;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1745,6 +1747,7 @@ Elements Styles
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
+  text-align: justify;
   /*padding: 0 22%;*/
 }
 
@@ -2870,6 +2873,7 @@ Blocks Styles
   display: -ms-flexbox;
   display: flex;
   height: 100px;
+  
 }
 
 .mainmenu__wrapper .mainmenu__wrap .mainmenu__nav .mainmenu {
@@ -4339,7 +4343,7 @@ Blocks Styles
 }
 
 .testimonial__container .testimonial .testimonial__inner .client__details p {
-  color: #ffffff;
+  color: black;
   font-family: Bubblegum Sans;
   font-size: 24px;
   line-height: 38px;
@@ -4352,7 +4356,7 @@ Blocks Styles
 }
 
 .testimonial__container .testimonial .testimonial__inner .client__details .client__info h6 {
-  color: #ffffff;
+  color: black;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 700;
@@ -4371,7 +4375,7 @@ Blocks Styles
 }
 
 .testimonial__bg::before {
-  background:#e8e8e8;
+  background:#c1dbae;
   content: "";
   height: 100%;
   left: 0;
@@ -4956,6 +4960,7 @@ Blocks Styles
 .blog .blog__inner {
   background: #ffffff none repeat scroll 0 0;
   padding-top: 40px;
+  
 }
 
 .blog .blog__inner span {
@@ -12900,12 +12905,83 @@ footer.footer--2 {
   font-family: "Open Sans", sans-serif;
   text-align: left;
 }
+#remove-lobster-styling2{
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
 #text-for-list{
   text-align: left;
   font-size: 18px;
   margin-bottom: 8px;
+  margin-left:20px;
 }
 
 #text-for-list2{
   text-align: left;
+}
+
+#address-email-spacing{
+  padding-bottom: 38px;
+}
+
+#address-phone-spacing{
+  padding-bottom: 11px;
+}
+
+.logo-style{
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  
+  font-weight: 700;
+}
+#faq-align p{
+  text-align: center;
+}
+#class-area{
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #b8caac;
+}
+#title-spacing{
+  margin-bottom:50px;
+}
+.ul-styling{
+  margin-left: 20px;
+  
+}
+
+.ul-styling a{
+  color: blue;
+}
+.footer-p-spacing{
+  margin-top:8px;
+}
+#enroll_link{
+  background-color:#b8caac;
+}
+
+#home-banner-spacing{
+  text-align: center;
+}
+
+
+#news-align-text p{
+  text-align: justify;
+}
+
+#no-style1 li{
+  text-decoration: none;
+}
+#news-area{
+  background-color: #b8caac;
+}
+
+#faq{
+  background-color: white;
+}
+
+.padding-curriculum{
+  padding-top: 45px;
 }
